@@ -1,5 +1,6 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="DeepLinkManager" preserve="nothing"/>
 		<type fullname="SDIDManager" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="SingularSDK">

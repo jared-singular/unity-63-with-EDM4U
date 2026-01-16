@@ -5,10 +5,14 @@
 
 
 
+struct Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83;
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct DeepLinkManager_t1776349B54AD78BD5401664664DCBEDF7E82BE66;
 struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
 struct SDIDManager_t013D52787CE64A32CAED1E5B79143D136332C8D4;
+struct SingularLinkHandler_t0F289FC63DB89153C6DB3DD2F2BE86C2CD842851;
+struct SingularLinkParams_t381B47964464257C31F18B9C0792C13F149DBB74;
 struct SingularSdidAccessorHandler_t191DED08EE80D2A2BC47C15B396D41E3AE717252;
 struct String_t;
 struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E;
@@ -17,13 +21,19 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SingularSDK_tC3D445B7D6B5AE902ECA4274070AAC7007A98FCF_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____F5346A29B1C65178C301C38CC9E86F9C7C311FDA94CCBA3C6A2132B6E567A210_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____F68207BF83769ACF25A9560A8F6D19374B455A65A475435BD11EDBEEA2220A66_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____37FEBBD5A9AD20877B374E8F0E503A3F3B6022142BB054DF85C83DBC003ADF50_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____91D846763DB21BE4450C7CDC24755EE7A5AF2E1B513CB396050FA9A70E47571F_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral019BD1ACE18091599C7F71F30CFC1DBA67051080;
+IL2CPP_EXTERN_C String_t* _stringLiteral1CF9EEAD7357D398D17882F3FEE20738AF22A586;
+IL2CPP_EXTERN_C String_t* _stringLiteral2A6D0F408049F6516224985A075E67014DDB7FD8;
 IL2CPP_EXTERN_C String_t* _stringLiteral2F93A59C9C588B85A8D69E72D0073AFBC4545E0C;
+IL2CPP_EXTERN_C String_t* _stringLiteral3A3A1577C0051F90540619B74ADAD1CEE0CC1F67;
+IL2CPP_EXTERN_C String_t* _stringLiteral5BEFD8CC60A79699B5BB00E37BAC5B62D371E174;
 IL2CPP_EXTERN_C String_t* _stringLiteral609BEC3EF67BDA235BD670B1097CA3241C45B6F7;
 IL2CPP_EXTERN_C String_t* _stringLiteral717627E09B0B86987D97AB94279B80D057AE3EB3;
 IL2CPP_EXTERN_C String_t* _stringLiteral7DF882A3C019784869A494A901219C6A56C61980;
 IL2CPP_EXTERN_C String_t* _stringLiteral88B9EA2447F1A462AA6E0CD7854DCE0893B7623D;
+IL2CPP_EXTERN_C String_t* _stringLiteral923A8DD0351E1D77A8D3C865DE35893B81BFEC1F;
 IL2CPP_EXTERN_C String_t* _stringLiteralEBA3B5920185CCD02969896F19C08ACB0E7B3834;
 
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
@@ -41,6 +51,13 @@ struct U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B
 };
 struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA  : public RuntimeObject
 {
+};
+struct SingularLinkParams_t381B47964464257C31F18B9C0792C13F149DBB74  : public RuntimeObject
+{
+	String_t* ____deeplink;
+	String_t* ____passthrough;
+	bool ____isDeferred;
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ____urlParameters;
 };
 struct String_t  : public RuntimeObject
 {
@@ -86,21 +103,6 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 	};
 };
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D17_t24F178802937ED32F1522A7BEEF6E9FC69DEEABD 
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t __StaticArrayInitTypeSizeU3D17_t24F178802937ED32F1522A7BEEF6E9FC69DEEABD__padding[17];
-	};
-};
-#pragma pack(pop, tp)
-#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D38_t7FE4E121DCA32F7E1AA974231DEBF3832D7A9605 
 {
 	union
@@ -112,6 +114,21 @@ struct __StaticArrayInitTypeSizeU3D38_t7FE4E121DCA32F7E1AA974231DEBF3832D7A9605
 			};
 		};
 		uint8_t __StaticArrayInitTypeSizeU3D38_t7FE4E121DCA32F7E1AA974231DEBF3832D7A9605__padding[38];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D84_t9CAC1B1FF7C797961D00EA13F20F629B9C2B6BD9 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D84_t9CAC1B1FF7C797961D00EA13F20F629B9C2B6BD9__padding[84];
 	};
 };
 #pragma pack(pop, tp)
@@ -165,13 +182,16 @@ struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behavio
 {
 	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
 };
+struct DeepLinkManager_t1776349B54AD78BD5401664664DCBEDF7E82BE66  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
 struct SDIDManager_t013D52787CE64A32CAED1E5B79143D136332C8D4  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 };
 struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
 {
-	__StaticArrayInitTypeSizeU3D17_t24F178802937ED32F1522A7BEEF6E9FC69DEEABD ___F5346A29B1C65178C301C38CC9E86F9C7C311FDA94CCBA3C6A2132B6E567A210;
-	__StaticArrayInitTypeSizeU3D38_t7FE4E121DCA32F7E1AA974231DEBF3832D7A9605 ___F68207BF83769ACF25A9560A8F6D19374B455A65A475435BD11EDBEEA2220A66;
+	__StaticArrayInitTypeSizeU3D38_t7FE4E121DCA32F7E1AA974231DEBF3832D7A9605 ___37FEBBD5A9AD20877B374E8F0E503A3F3B6022142BB054DF85C83DBC003ADF50;
+	__StaticArrayInitTypeSizeU3D84_t9CAC1B1FF7C797961D00EA13F20F629B9C2B6BD9 ___91D846763DB21BE4450C7CDC24755EE7A5AF2E1B513CB396050FA9A70E47571F;
 };
 struct String_t_StaticFields
 {
@@ -230,6 +250,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_Save_m82567E045D69C838112EA2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SDIDManager_DidSetSdid_m9CE0E5E3DDC5273F770275D8DE8E22FA4371B2E6 (SDIDManager_t013D52787CE64A32CAED1E5B79143D136332C8D4* __this, String_t* ___0_sdid, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2 (String_t* ___0_key, String_t* ___1_defaultValue, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SingularSDK_SetSingularLinkHandler_mF2984642E9AAB5AAC20D80FAC08F4366D7206BB3 (RuntimeObject* ___0_handler, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* SingularLinkParams_get_Deeplink_m3397A910D179157113F2ACCDB3A9BCFB8B189BB3_inline (SingularLinkParams_t381B47964464257C31F18B9C0792C13F149DBB74* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* SingularLinkParams_get_Passthrough_mDACEE4675EF83BA4E4B5EFCA65EF960800C8552E_inline (SingularLinkParams_t381B47964464257C31F18B9C0792C13F149DBB74* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SingularLinkParams_get_IsDeferred_mF5A68A3F98AA27D5E7F195D7BB199595AE9D24F1_inline (SingularLinkParams_t381B47964464257C31F18B9C0792C13F149DBB74* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 #ifdef __clang__
@@ -374,40 +399,182 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SDIDManager__ctor_mB88782C662AEDCC9C16C1
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Method Definition Index: 94583
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DeepLinkManager_Awake_mAB7C60B1475C63D4BB07C29323308FDBF88D2946 (DeepLinkManager_t1776349B54AD78BD5401664664DCBEDF7E82BE66* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingularSDK_tC3D445B7D6B5AE902ECA4274070AAC7007A98FCF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2A6D0F408049F6516224985A075E67014DDB7FD8);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/jared/Workspace/GitHub/unity-63-with-EDM4U/unity-63-with-EDM4U/Assets/Scripts/SingularLinkHandler.cs:10>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral2A6D0F408049F6516224985A075E67014DDB7FD8, NULL);
+		//<source_info:/Users/jared/Workspace/GitHub/unity-63-with-EDM4U/unity-63-with-EDM4U/Assets/Scripts/SingularLinkHandler.cs:14>
+		il2cpp_codegen_runtime_class_init_inline(SingularSDK_tC3D445B7D6B5AE902ECA4274070AAC7007A98FCF_il2cpp_TypeInfo_var);
+		SingularSDK_SetSingularLinkHandler_mF2984642E9AAB5AAC20D80FAC08F4366D7206BB3(__this, NULL);
+		//<source_info:/Users/jared/Workspace/GitHub/unity-63-with-EDM4U/unity-63-with-EDM4U/Assets/Scripts/SingularLinkHandler.cs:15>
+		return;
+	}
+}
+// Method Definition Index: 94584
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DeepLinkManager_OnSingularLinkResolved_m5D9726477A2120509BBAFF9905519A21D4D5AF61 (DeepLinkManager_t1776349B54AD78BD5401664664DCBEDF7E82BE66* __this, SingularLinkParams_t381B47964464257C31F18B9C0792C13F149DBB74* ___0_linkParams, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral019BD1ACE18091599C7F71F30CFC1DBA67051080);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1CF9EEAD7357D398D17882F3FEE20738AF22A586);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3A3A1577C0051F90540619B74ADAD1CEE0CC1F67);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5BEFD8CC60A79699B5BB00E37BAC5B62D371E174);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral923A8DD0351E1D77A8D3C865DE35893B81BFEC1F);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	bool V_2 = false;
+	String_t* G_B2_0 = NULL;
+	String_t* G_B2_1 = NULL;
+	String_t* G_B1_0 = NULL;
+	String_t* G_B1_1 = NULL;
+	String_t* G_B4_0 = NULL;
+	String_t* G_B4_1 = NULL;
+	String_t* G_B3_0 = NULL;
+	String_t* G_B3_1 = NULL;
+	{
+		//<source_info:/Users/jared/Workspace/GitHub/unity-63-with-EDM4U/unity-63-with-EDM4U/Assets/Scripts/SingularLinkHandler.cs:20>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral019BD1ACE18091599C7F71F30CFC1DBA67051080, NULL);
+		//<source_info:/Users/jared/Workspace/GitHub/unity-63-with-EDM4U/unity-63-with-EDM4U/Assets/Scripts/SingularLinkHandler.cs:23>
+		SingularLinkParams_t381B47964464257C31F18B9C0792C13F149DBB74* L_0 = ___0_linkParams;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = SingularLinkParams_get_Deeplink_m3397A910D179157113F2ACCDB3A9BCFB8B189BB3_inline(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:/Users/jared/Workspace/GitHub/unity-63-with-EDM4U/unity-63-with-EDM4U/Assets/Scripts/SingularLinkHandler.cs:24>
+		SingularLinkParams_t381B47964464257C31F18B9C0792C13F149DBB74* L_2 = ___0_linkParams;
+		NullCheck(L_2);
+		String_t* L_3;
+		L_3 = SingularLinkParams_get_Passthrough_mDACEE4675EF83BA4E4B5EFCA65EF960800C8552E_inline(L_2, NULL);
+		V_1 = L_3;
+		//<source_info:/Users/jared/Workspace/GitHub/unity-63-with-EDM4U/unity-63-with-EDM4U/Assets/Scripts/SingularLinkHandler.cs:25>
+		SingularLinkParams_t381B47964464257C31F18B9C0792C13F149DBB74* L_4 = ___0_linkParams;
+		NullCheck(L_4);
+		bool L_5;
+		L_5 = SingularLinkParams_get_IsDeferred_mF5A68A3F98AA27D5E7F195D7BB199595AE9D24F1_inline(L_4, NULL);
+		V_2 = L_5;
+		//<source_info:/Users/jared/Workspace/GitHub/unity-63-with-EDM4U/unity-63-with-EDM4U/Assets/Scripts/SingularLinkHandler.cs:28>
+		String_t* L_6 = V_0;
+		String_t* L_7 = L_6;
+		if (L_7)
+		{
+			G_B2_0 = L_7;
+			G_B2_1 = _stringLiteral923A8DD0351E1D77A8D3C865DE35893B81BFEC1F;
+			goto IL_002e;
+		}
+		G_B1_0 = L_7;
+		G_B1_1 = _stringLiteral923A8DD0351E1D77A8D3C865DE35893B81BFEC1F;
+	}
+	{
+		G_B2_0 = _stringLiteral5BEFD8CC60A79699B5BB00E37BAC5B62D371E174;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_002e:
+	{
+		String_t* L_8;
+		L_8 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B2_1, G_B2_0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_8, NULL);
+		//<source_info:/Users/jared/Workspace/GitHub/unity-63-with-EDM4U/unity-63-with-EDM4U/Assets/Scripts/SingularLinkHandler.cs:29>
+		String_t* L_9 = V_1;
+		String_t* L_10 = L_9;
+		if (L_10)
+		{
+			G_B4_0 = L_10;
+			G_B4_1 = _stringLiteral3A3A1577C0051F90540619B74ADAD1CEE0CC1F67;
+			goto IL_0047;
+		}
+		G_B3_0 = L_10;
+		G_B3_1 = _stringLiteral3A3A1577C0051F90540619B74ADAD1CEE0CC1F67;
+	}
+	{
+		G_B4_0 = _stringLiteral5BEFD8CC60A79699B5BB00E37BAC5B62D371E174;
+		G_B4_1 = G_B3_1;
+	}
+
+IL_0047:
+	{
+		String_t* L_11;
+		L_11 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B4_1, G_B4_0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_11, NULL);
+		//<source_info:/Users/jared/Workspace/GitHub/unity-63-with-EDM4U/unity-63-with-EDM4U/Assets/Scripts/SingularLinkHandler.cs:30>
+		bool L_12 = V_2;
+		bool L_13 = L_12;
+		RuntimeObject* L_14 = Box(il2cpp_defaults.boolean_class, &L_13);
+		String_t* L_15;
+		L_15 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral1CF9EEAD7357D398D17882F3FEE20738AF22A586, L_14, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_15, NULL);
+		//<source_info:/Users/jared/Workspace/GitHub/unity-63-with-EDM4U/unity-63-with-EDM4U/Assets/Scripts/SingularLinkHandler.cs:31>
+		return;
+	}
+}
+// Method Definition Index: 94585
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DeepLinkManager__ctor_mBE6E096F37808C0CA77136A2999B1E924A4C296F (DeepLinkManager_t1776349B54AD78BD5401664664DCBEDF7E82BE66* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 94586
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____F5346A29B1C65178C301C38CC9E86F9C7C311FDA94CCBA3C6A2132B6E567A210_FieldInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____F68207BF83769ACF25A9560A8F6D19374B455A65A475435BD11EDBEEA2220A66_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____37FEBBD5A9AD20877B374E8F0E503A3F3B6022142BB054DF85C83DBC003ADF50_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____91D846763DB21BE4450C7CDC24755EE7A5AF2E1B513CB396050FA9A70E47571F_FieldInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E));
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)38));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)84));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____F68207BF83769ACF25A9560A8F6D19374B455A65A475435BD11EDBEEA2220A66_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____91D846763DB21BE4450C7CDC24755EE7A5AF2E1B513CB396050FA9A70E47571F_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)17));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)38));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____F5346A29B1C65178C301C38CC9E86F9C7C311FDA94CCBA3C6A2132B6E567A210_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____37FEBBD5A9AD20877B374E8F0E503A3F3B6022142BB054DF85C83DBC003ADF50_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
 		(&V_0)->___TypesData = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
-		(&V_0)->___TotalFiles = 1;
-		(&V_0)->___TotalTypes = 1;
+		(&V_0)->___TotalFiles = 2;
+		(&V_0)->___TotalTypes = 2;
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_6 = V_0;
 		return L_6;
 	}
 }
-// Method Definition Index: 94584
+// Method Definition Index: 94587
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -512,3 +679,30 @@ IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_ma
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+// Method Definition Index: 92878
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* SingularLinkParams_get_Deeplink_m3397A910D179157113F2ACCDB3A9BCFB8B189BB3_inline (SingularLinkParams_t381B47964464257C31F18B9C0792C13F149DBB74* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/singular-unity-package@5d024047b378/SingularSDK/Runtime/SingularLinkHandler.cs:27>
+		String_t* L_0 = __this->____deeplink;
+		return L_0;
+	}
+}
+// Method Definition Index: 92880
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* SingularLinkParams_get_Passthrough_mDACEE4675EF83BA4E4B5EFCA65EF960800C8552E_inline (SingularLinkParams_t381B47964464257C31F18B9C0792C13F149DBB74* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/singular-unity-package@5d024047b378/SingularSDK/Runtime/SingularLinkHandler.cs:35>
+		String_t* L_0 = __this->____passthrough;
+		return L_0;
+	}
+}
+// Method Definition Index: 92882
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SingularLinkParams_get_IsDeferred_mF5A68A3F98AA27D5E7F195D7BB199595AE9D24F1_inline (SingularLinkParams_t381B47964464257C31F18B9C0792C13F149DBB74* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/singular-unity-package@5d024047b378/SingularSDK/Runtime/SingularLinkHandler.cs:42>
+		bool L_0 = __this->____isDeferred;
+		return L_0;
+	}
+}

@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - DeepLinkManager
     - SDIDManager
     SingularSDK.dll:
     - Singular.SingularSDK
@@ -276,107 +277,109 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 49984}
+      Script: {instanceID: 49516}
     - Class: 114
-      Script: {instanceID: 41546}
+      Script: {instanceID: 39380}
     - Class: 114
-      Script: {instanceID: 36998}
+      Script: {instanceID: 41550}
     - Class: 114
-      Script: {instanceID: 44352}
+      Script: {instanceID: 37000}
     - Class: 114
-      Script: {instanceID: 42742}
+      Script: {instanceID: 44356}
     - Class: 114
-      Script: {instanceID: 39714}
+      Script: {instanceID: 42746}
     - Class: 114
-      Script: {instanceID: 36962}
+      Script: {instanceID: 39718}
     - Class: 114
-      Script: {instanceID: 45824}
+      Script: {instanceID: 36964}
     - Class: 114
-      Script: {instanceID: 39944}
+      Script: {instanceID: 45828}
     - Class: 114
-      Script: {instanceID: 36832}
+      Script: {instanceID: 39948}
     - Class: 114
-      Script: {instanceID: 39630}
+      Script: {instanceID: 36834}
     - Class: 114
-      Script: {instanceID: 39816}
+      Script: {instanceID: 39634}
     - Class: 114
-      Script: {instanceID: 34958}
+      Script: {instanceID: 39820}
     - Class: 114
-      Script: {instanceID: 36930}
+      Script: {instanceID: 34960}
     - Class: 114
-      Script: {instanceID: 35168}
+      Script: {instanceID: 36932}
     - Class: 114
-      Script: {instanceID: 44292}
+      Script: {instanceID: 35170}
     - Class: 114
-      Script: {instanceID: 36492}
+      Script: {instanceID: 44296}
     - Class: 114
-      Script: {instanceID: 34104}
+      Script: {instanceID: 36494}
     - Class: 114
-      Script: {instanceID: 39110}
+      Script: {instanceID: 34106}
     - Class: 114
-      Script: {instanceID: 34390}
+      Script: {instanceID: 39112}
     - Class: 114
-      Script: {instanceID: 36242}
+      Script: {instanceID: 34392}
     - Class: 114
-      Script: {instanceID: 40972}
+      Script: {instanceID: 36244}
     - Class: 114
-      Script: {instanceID: 44656}
+      Script: {instanceID: 40976}
     - Class: 114
-      Script: {instanceID: 45796}
+      Script: {instanceID: 44660}
     - Class: 114
-      Script: {instanceID: 39204}
+      Script: {instanceID: 45800}
     - Class: 114
-      Script: {instanceID: 34830}
+      Script: {instanceID: 39206}
     - Class: 114
-      Script: {instanceID: 46630}
+      Script: {instanceID: 34832}
     - Class: 114
-      Script: {instanceID: 45438}
+      Script: {instanceID: 46634}
     - Class: 114
-      Script: {instanceID: 40970}
+      Script: {instanceID: 45442}
     - Class: 114
-      Script: {instanceID: 40862}
+      Script: {instanceID: 40974}
     - Class: 114
-      Script: {instanceID: 39166}
+      Script: {instanceID: 40866}
     - Class: 114
-      Script: {instanceID: 42068}
+      Script: {instanceID: 39168}
     - Class: 114
-      Script: {instanceID: 45700}
+      Script: {instanceID: 42072}
     - Class: 114
-      Script: {instanceID: 36872}
+      Script: {instanceID: 45704}
     - Class: 114
-      Script: {instanceID: 46002}
+      Script: {instanceID: 36874}
     - Class: 114
-      Script: {instanceID: 43836}
+      Script: {instanceID: 46006}
     - Class: 114
-      Script: {instanceID: 45502}
+      Script: {instanceID: 43840}
     - Class: 114
-      Script: {instanceID: 39468}
+      Script: {instanceID: 45506}
     - Class: 114
-      Script: {instanceID: 36310}
+      Script: {instanceID: 39472}
     - Class: 114
-      Script: {instanceID: 45550}
+      Script: {instanceID: 36312}
     - Class: 114
-      Script: {instanceID: 36732}
+      Script: {instanceID: 45554}
     - Class: 114
-      Script: {instanceID: 41240}
+      Script: {instanceID: 36734}
     - Class: 114
-      Script: {instanceID: 35602}
+      Script: {instanceID: 41244}
     - Class: 114
-      Script: {instanceID: 35308}
+      Script: {instanceID: 35604}
     - Class: 114
-      Script: {instanceID: 37954}
+      Script: {instanceID: 35310}
     - Class: 114
-      Script: {instanceID: 46294}
+      Script: {instanceID: 37956}
     - Class: 114
-      Script: {instanceID: 44834}
+      Script: {instanceID: 46298}
     - Class: 114
-      Script: {instanceID: 40630}
+      Script: {instanceID: 44838}
     - Class: 114
-      Script: {instanceID: 44734}
+      Script: {instanceID: 40634}
     - Class: 114
-      Script: {instanceID: 46812}
+      Script: {instanceID: 44738}
     - Class: 114
-      Script: {instanceID: 38306}
+      Script: {instanceID: 46816}
+    - Class: 114
+      Script: {instanceID: 38308}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1204,6 +1207,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 10cd1e95a1f95e73ac87187e20256c21
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SDIDManager
   - hash:
       serializedVersion: 2
       Hash: 1ab136900c0edaeeb49424c852595030
@@ -2094,10 +2103,10 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 10cd1e95a1f95e73ac87187e20256c21
+      Hash: 0bff3eb0111f41f754a2926dce4680e3
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: SDIDManager
+    className: DeepLinkManager
   platform: 9
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
