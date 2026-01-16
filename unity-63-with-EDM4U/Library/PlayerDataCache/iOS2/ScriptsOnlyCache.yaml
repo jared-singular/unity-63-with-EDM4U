@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AttributionCallbackHandler
     - DeepLinkManager
     - SDIDManager
     SingularSDK.dll:
@@ -276,6 +277,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 54202}
     - Class: 114
       Script: {instanceID: 49516}
     - Class: 114
@@ -2107,6 +2110,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: DeepLinkManager
+  - hash:
+      serializedVersion: 2
+      Hash: cebba4d838d2562180200f0c13a4b219
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AttributionCallbackHandler
   platform: 9
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

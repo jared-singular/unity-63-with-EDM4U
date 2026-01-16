@@ -3447,7 +3447,7 @@ Payload for "WriteText /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/Builds/
 				UNITY_CLOUD_PROJECT_ID = "cd59c512-e0d9-4424-a8f3-ace7c7c75c3f";
 				UNITY_RUNTIME_VERSION = 6000.3.4f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = d8d35d0eeef2e8a62fb97a8efb9bdc1a96eaad69fb84a2c52f2f4d2351dbda11;
+				USYM_UPLOAD_AUTH_TOKEN = 28dff444fdf39860db7d06f3601f0e3d861d3a4d6e9974977253aa14e43f93db;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = Debug;
@@ -3490,7 +3490,7 @@ Payload for "WriteText /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/Builds/
 				UNITY_CLOUD_PROJECT_ID = "cd59c512-e0d9-4424-a8f3-ace7c7c75c3f";
 				UNITY_RUNTIME_VERSION = 6000.3.4f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = d8d35d0eeef2e8a62fb97a8efb9bdc1a96eaad69fb84a2c52f2f4d2351dbda11;
+				USYM_UPLOAD_AUTH_TOKEN = 28dff444fdf39860db7d06f3601f0e3d861d3a4d6e9974977253aa14e43f93db;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = Release;
@@ -3534,7 +3534,7 @@ Payload for "WriteText /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/Builds/
 				UNITY_CLOUD_PROJECT_ID = "cd59c512-e0d9-4424-a8f3-ace7c7c75c3f";
 				UNITY_RUNTIME_VERSION = 6000.3.4f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = d8d35d0eeef2e8a62fb97a8efb9bdc1a96eaad69fb84a2c52f2f4d2351dbda11;
+				USYM_UPLOAD_AUTH_TOKEN = 28dff444fdf39860db7d06f3601f0e3d861d3a4d6e9974977253aa14e43f93db;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
@@ -3587,7 +3587,7 @@ Payload for "WriteText /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/Builds/
 				UNITY_CLOUD_PROJECT_ID = "cd59c512-e0d9-4424-a8f3-ace7c7c75c3f";
 				UNITY_RUNTIME_VERSION = 6000.3.4f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = d8d35d0eeef2e8a62fb97a8efb9bdc1a96eaad69fb84a2c52f2f4d2351dbda11;
+				USYM_UPLOAD_AUTH_TOKEN = 28dff444fdf39860db7d06f3601f0e3d861d3a4d6e9974977253aa14e43f93db;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -3632,7 +3632,7 @@ Payload for "WriteText /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/Builds/
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				UNITY_CLOUD_PROJECT_ID = "cd59c512-e0d9-4424-a8f3-ace7c7c75c3f";
-				USYM_UPLOAD_AUTH_TOKEN = d8d35d0eeef2e8a62fb97a8efb9bdc1a96eaad69fb84a2c52f2f4d2351dbda11;
+				USYM_UPLOAD_AUTH_TOKEN = 28dff444fdf39860db7d06f3601f0e3d861d3a4d6e9974977253aa14e43f93db;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = ReleaseForRunning;
@@ -3675,7 +3675,7 @@ Payload for "WriteText /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/Builds/
 				UNITY_CLOUD_PROJECT_ID = "cd59c512-e0d9-4424-a8f3-ace7c7c75c3f";
 				UNITY_RUNTIME_VERSION = 6000.3.4f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = d8d35d0eeef2e8a62fb97a8efb9bdc1a96eaad69fb84a2c52f2f4d2351dbda11;
+				USYM_UPLOAD_AUTH_TOKEN = 28dff444fdf39860db7d06f3601f0e3d861d3a4d6e9974977253aa14e43f93db;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = ReleaseForRunning;
@@ -3719,7 +3719,7 @@ Payload for "WriteText /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/Builds/
 				UNITY_CLOUD_PROJECT_ID = "cd59c512-e0d9-4424-a8f3-ace7c7c75c3f";
 				UNITY_RUNTIME_VERSION = 6000.3.4f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = d8d35d0eeef2e8a62fb97a8efb9bdc1a96eaad69fb84a2c52f2f4d2351dbda11;
+				USYM_UPLOAD_AUTH_TOKEN = 28dff444fdf39860db7d06f3601f0e3d861d3a4d6e9974977253aa14e43f93db;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
@@ -3765,7 +3765,7 @@ Payload for "WriteText /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/Builds/
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				UNITY_CLOUD_PROJECT_ID = "cd59c512-e0d9-4424-a8f3-ace7c7c75c3f";
-				USYM_UPLOAD_AUTH_TOKEN = d8d35d0eeef2e8a62fb97a8efb9bdc1a96eaad69fb84a2c52f2f4d2351dbda11;
+				USYM_UPLOAD_AUTH_TOKEN = 28dff444fdf39860db7d06f3601f0e3d861d3a4d6e9974977253aa14e43f93db;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = ReleaseForProfiling;
@@ -3808,7 +3808,7 @@ Payload for "WriteText /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/Builds/
 				UNITY_CLOUD_PROJECT_ID = "cd59c512-e0d9-4424-a8f3-ace7c7c75c3f";
 				UNITY_RUNTIME_VERSION = 6000.3.4f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = d8d35d0eeef2e8a62fb97a8efb9bdc1a96eaad69fb84a2c52f2f4d2351dbda11;
+				USYM_UPLOAD_AUTH_TOKEN = 28dff444fdf39860db7d06f3601f0e3d861d3a4d6e9974977253aa14e43f93db;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = ReleaseForProfiling;
@@ -3852,7 +3852,7 @@ Payload for "WriteText /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/Builds/
 				UNITY_CLOUD_PROJECT_ID = "cd59c512-e0d9-4424-a8f3-ace7c7c75c3f";
 				UNITY_RUNTIME_VERSION = 6000.3.4f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = d8d35d0eeef2e8a62fb97a8efb9bdc1a96eaad69fb84a2c52f2f4d2351dbda11;
+				USYM_UPLOAD_AUTH_TOKEN = 28dff444fdf39860db7d06f3601f0e3d861d3a4d6e9974977253aa14e43f93db;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
@@ -4076,7 +4076,7 @@ Payload for "WriteText /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/Builds/
 				UNITY_CLOUD_PROJECT_ID = "cd59c512-e0d9-4424-a8f3-ace7c7c75c3f";
 				UNITY_RUNTIME_VERSION = 6000.3.4f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = d8d35d0eeef2e8a62fb97a8efb9bdc1a96eaad69fb84a2c52f2f4d2351dbda11;
+				USYM_UPLOAD_AUTH_TOKEN = 28dff444fdf39860db7d06f3601f0e3d861d3a4d6e9974977253aa14e43f93db;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				WARNING_CFLAGS = "-Wno-missing-declarations";
 			};
@@ -4156,7 +4156,7 @@ Payload for "WriteText /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/Builds/
 				UNITY_CLOUD_PROJECT_ID = "cd59c512-e0d9-4424-a8f3-ace7c7c75c3f";
 				UNITY_RUNTIME_VERSION = 6000.3.4f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = d8d35d0eeef2e8a62fb97a8efb9bdc1a96eaad69fb84a2c52f2f4d2351dbda11;
+				USYM_UPLOAD_AUTH_TOKEN = 28dff444fdf39860db7d06f3601f0e3d861d3a4d6e9974977253aa14e43f93db;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				WARNING_CFLAGS = "-Wno-missing-declarations";
 			};
@@ -4236,7 +4236,7 @@ Payload for "WriteText /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/Builds/
 				UNITY_CLOUD_PROJECT_ID = "cd59c512-e0d9-4424-a8f3-ace7c7c75c3f";
 				UNITY_RUNTIME_VERSION = 6000.3.4f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = d8d35d0eeef2e8a62fb97a8efb9bdc1a96eaad69fb84a2c52f2f4d2351dbda11;
+				USYM_UPLOAD_AUTH_TOKEN = 28dff444fdf39860db7d06f3601f0e3d861d3a4d6e9974977253aa14e43f93db;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				WARNING_CFLAGS = "-Wno-missing-declarations";
 			};
@@ -4318,7 +4318,7 @@ Payload for "WriteText /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/Builds/
 				UNITY_CLOUD_PROJECT_ID = "cd59c512-e0d9-4424-a8f3-ace7c7c75c3f";
 				UNITY_RUNTIME_VERSION = 6000.3.4f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = d8d35d0eeef2e8a62fb97a8efb9bdc1a96eaad69fb84a2c52f2f4d2351dbda11;
+				USYM_UPLOAD_AUTH_TOKEN = 28dff444fdf39860db7d06f3601f0e3d861d3a4d6e9974977253aa14e43f93db;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 				WARNING_CFLAGS = "-Wno-missing-declarations";
 			};
@@ -4364,7 +4364,7 @@ Payload for "WriteText /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/Builds/
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				UNITY_CLOUD_PROJECT_ID = "cd59c512-e0d9-4424-a8f3-ace7c7c75c3f";
-				USYM_UPLOAD_AUTH_TOKEN = d8d35d0eeef2e8a62fb97a8efb9bdc1a96eaad69fb84a2c52f2f4d2351dbda11;
+				USYM_UPLOAD_AUTH_TOKEN = 28dff444fdf39860db7d06f3601f0e3d861d3a4d6e9974977253aa14e43f93db;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = Debug;
@@ -4408,7 +4408,7 @@ Payload for "WriteText /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/Builds/
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				UNITY_CLOUD_PROJECT_ID = "cd59c512-e0d9-4424-a8f3-ace7c7c75c3f";
-				USYM_UPLOAD_AUTH_TOKEN = d8d35d0eeef2e8a62fb97a8efb9bdc1a96eaad69fb84a2c52f2f4d2351dbda11;
+				USYM_UPLOAD_AUTH_TOKEN = 28dff444fdf39860db7d06f3601f0e3d861d3a4d6e9974977253aa14e43f93db;
 				USYM_UPLOAD_URL_SOURCE = "https://perf-events.cloud.unity3d.com/url";
 			};
 			name = Release;
