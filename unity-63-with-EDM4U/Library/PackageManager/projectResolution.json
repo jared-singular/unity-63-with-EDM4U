@@ -9,6 +9,16 @@
     "/Applications/Unity/Hub/Editor/6000.3.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
+    "com.google.external-dependency-manager@https://github.com/googlesamples/unity-jar-resolver.git?path=upm": {
+      "name": "com.google.external-dependency-manager",
+      "displayName": "External Dependency Manager for Unity",
+      "resolvedPath": "/Users/jared/Workspace/GitHub/unity-63-with-EDM4U/unity-63-with-EDM4U/Library/PackageCache/com.google.external-dependency-manager@d3d2139e1fa3",
+      "fingerprint": "d3d2139e1fa3de72abe745bc0737a05b77f44e7a",
+      "editorCompatibility": "2019.1.0a1",
+      "version": "1.2.186",
+      "source": "git",
+      "testable": false
+    },
     "com.unity.2d.animation@13.0.2": {
       "name": "com.unity.2d.animation",
       "displayName": "2D Animation",

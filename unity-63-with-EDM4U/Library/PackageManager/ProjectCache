@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639041195550000000
-    m_Hash: 1488424754
+      ticks: 639041233460000000
+    m_Hash: 2286415727
   m_LockFileStatus:
     m_FilePath: /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/unity-63-with-EDM4U/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639041195870000000
-    m_Hash: 2514228238
+      ticks: 639041233460000000
+    m_Hash: 1788244178
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,105 @@ m_LocalPackages:
 m_ProjectPath: /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/unity-63-with-EDM4U/Packages
 m_EditorVersion: 6000.3.4f1 (fdd3b8998ec4)
 m_ResolvedPackages:
+- packageId: com.google.external-dependency-manager@https://github.com/googlesamples/unity-jar-resolver.git?path=upm
+  testable: 0
+  isDirectDependency: 1
+  version: 1.2.186
+  source: 5
+  resolvedPath: /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/unity-63-with-EDM4U/Library/PackageCache/com.google.external-dependency-manager@d3d2139e1fa3
+  assetPath: Packages/com.google.external-dependency-manager
+  name: com.google.external-dependency-manager
+  displayName: External Dependency Manager for Unity
+  author:
+    name: Google LLC
+    email: 
+    url: https://github.com/googlesamples/unity-jar-resolver
+  category: 
+  type: 
+  description: External Dependency Manager for Unity (EDM4U) can be used by any Unity
+    plugin that requires Android specific libraries (e.g. AARs), iOS CocoaPods, version
+    management of transitive dependencies, and/or management of Unity Package Manager
+    registries.
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - Google
+  - Android
+  - Gradle
+  - Cocoapods
+  - Dependency
+  - Unity Package Manager
+  - Unity
+  - vh-name:play-services-resolver
+  - vh-name:unity-jar-resolver
+  - vh-name:external-dependency-manager
+  - vh-name:External Dependency Manager for Unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 0
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: c17d12eb70c544b7ce5540e8934520ca2bac164c
+    revision: HEAD
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: d3d2139e1fa3de72abe745bc0737a05b77f44e7a
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 
+    minimumUnityVersion: 2019.1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.2d.animation@13.0.2
   testable: 0
   isDirectDependency: 1
