@@ -109,6 +109,16 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.device-simulator.devices@1.0.1": {
+      "name": "com.unity.device-simulator.devices",
+      "displayName": "Device Simulator Devices",
+      "resolvedPath": "/Users/jared/Workspace/GitHub/unity-63-with-EDM4U/unity-63-with-EDM4U/Library/PackageCache/com.unity.device-simulator.devices@2af643ceec84",
+      "fingerprint": "2af643ceec844f09b4ee3406553b2470148f8301",
+      "editorCompatibility": "2022.1.0a1",
+      "version": "1.0.1",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.ide.rider@3.0.38": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",

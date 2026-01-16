@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639041948540000000
-    m_Hash: 1171613253
+      ticks: 639041988480000000
+    m_Hash: 1566366233
   m_LockFileStatus:
     m_FilePath: /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/unity-63-with-EDM4U/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639041948540000000
-    m_Hash: 1562306562
+      ticks: 639041988480000000
+    m_Hash: 1838463566
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -1764,6 +1764,100 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.11.2
     minimumUnityVersion: 2021.3.0f1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.device-simulator.devices@1.0.1
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.1
+  source: 1
+  resolvedPath: /Users/jared/Workspace/GitHub/unity-63-with-EDM4U/unity-63-with-EDM4U/Library/PackageCache/com.unity.device-simulator.devices@2af643ceec84
+  assetPath: Packages/com.unity.device-simulator.devices
+  name: com.unity.device-simulator.devices
+  displayName: Device Simulator Devices
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: This package contains additional devices for the Device Simulator.
+    Each device has a complete device definition and includes a device overlay. After
+    you install this package, the additional devices are immediately available in
+    the Device Simulator.
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.4
+    - 1.0.0
+    - 1.0.1
+    compatible:
+    - 1.0.1
+    recommended: 1.0.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638971856908020000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.device-simulator.devices.git
+    revision: 2e1ffaaea0624daf91ee6c76906fd119dbd584c6
+    path: 
+  unityLifecycle:
+    version: 1.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 2af643ceec844f09b4ee3406553b2470148f8301
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.1
+    minimumUnityVersion: 2022.1
   compliance:
     status: 0
     violation:

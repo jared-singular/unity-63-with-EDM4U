@@ -3872,6 +3872,26 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.PlayerConnectionInternal
 
+	//Start Registrations for type : UnityEngine.PlayerPrefs
+
+		//System.Boolean UnityEngine.PlayerPrefs::HasKey_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_PlayerPrefs_HasKey_Injected();
+		Register_UnityEngine_PlayerPrefs_HasKey_Injected();
+
+		//System.Boolean UnityEngine.PlayerPrefs::TrySetSetString_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_PlayerPrefs_TrySetSetString_Injected();
+		Register_UnityEngine_PlayerPrefs_TrySetSetString_Injected();
+
+		//System.Void UnityEngine.PlayerPrefs::GetString_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_PlayerPrefs_GetString_Injected();
+		Register_UnityEngine_PlayerPrefs_GetString_Injected();
+
+		//System.Void UnityEngine.PlayerPrefs::Save()
+		void Register_UnityEngine_PlayerPrefs_Save();
+		Register_UnityEngine_PlayerPrefs_Save();
+
+	//End Registrations for type : UnityEngine.PlayerPrefs
+
 	//Start Registrations for type : UnityEngine.PolygonCollider2D
 
 		//System.Void UnityEngine.PolygonCollider2D::set_points_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&)

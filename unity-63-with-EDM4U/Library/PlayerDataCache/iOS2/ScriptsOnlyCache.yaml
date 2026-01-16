@@ -1,8 +1,13 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - SDIDManager
+    SingularSDK.dll:
+    - Singular.SingularSDK
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
+    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.DeformationManager
     - UnityEngine.U2D.Animation.DeformationManagerUpdater
     Unity.2D.IK.Editor.dll:
@@ -271,103 +276,107 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 36996}
+      Script: {instanceID: 49984}
     - Class: 114
-      Script: {instanceID: 44350}
+      Script: {instanceID: 41546}
     - Class: 114
-      Script: {instanceID: 42740}
+      Script: {instanceID: 36998}
     - Class: 114
-      Script: {instanceID: 39712}
+      Script: {instanceID: 44352}
     - Class: 114
-      Script: {instanceID: 36960}
+      Script: {instanceID: 42742}
     - Class: 114
-      Script: {instanceID: 45822}
+      Script: {instanceID: 39714}
     - Class: 114
-      Script: {instanceID: 39942}
+      Script: {instanceID: 36962}
     - Class: 114
-      Script: {instanceID: 36830}
+      Script: {instanceID: 45824}
     - Class: 114
-      Script: {instanceID: 39628}
+      Script: {instanceID: 39944}
     - Class: 114
-      Script: {instanceID: 39814}
+      Script: {instanceID: 36832}
     - Class: 114
-      Script: {instanceID: 34956}
+      Script: {instanceID: 39630}
     - Class: 114
-      Script: {instanceID: 36928}
+      Script: {instanceID: 39816}
     - Class: 114
-      Script: {instanceID: 35166}
+      Script: {instanceID: 34958}
     - Class: 114
-      Script: {instanceID: 44290}
+      Script: {instanceID: 36930}
     - Class: 114
-      Script: {instanceID: 36490}
+      Script: {instanceID: 35168}
     - Class: 114
-      Script: {instanceID: 34102}
+      Script: {instanceID: 44292}
     - Class: 114
-      Script: {instanceID: 39108}
+      Script: {instanceID: 36492}
     - Class: 114
-      Script: {instanceID: 34388}
+      Script: {instanceID: 34104}
     - Class: 114
-      Script: {instanceID: 36240}
+      Script: {instanceID: 39110}
+    - Class: 114
+      Script: {instanceID: 34390}
+    - Class: 114
+      Script: {instanceID: 36242}
+    - Class: 114
+      Script: {instanceID: 40972}
+    - Class: 114
+      Script: {instanceID: 44656}
+    - Class: 114
+      Script: {instanceID: 45796}
+    - Class: 114
+      Script: {instanceID: 39204}
+    - Class: 114
+      Script: {instanceID: 34830}
+    - Class: 114
+      Script: {instanceID: 46630}
+    - Class: 114
+      Script: {instanceID: 45438}
     - Class: 114
       Script: {instanceID: 40970}
     - Class: 114
-      Script: {instanceID: 44654}
+      Script: {instanceID: 40862}
     - Class: 114
-      Script: {instanceID: 45794}
+      Script: {instanceID: 39166}
     - Class: 114
-      Script: {instanceID: 39202}
+      Script: {instanceID: 42068}
     - Class: 114
-      Script: {instanceID: 34828}
+      Script: {instanceID: 45700}
     - Class: 114
-      Script: {instanceID: 46628}
+      Script: {instanceID: 36872}
     - Class: 114
-      Script: {instanceID: 45436}
+      Script: {instanceID: 46002}
     - Class: 114
-      Script: {instanceID: 40968}
+      Script: {instanceID: 43836}
     - Class: 114
-      Script: {instanceID: 40860}
+      Script: {instanceID: 45502}
     - Class: 114
-      Script: {instanceID: 39164}
+      Script: {instanceID: 39468}
     - Class: 114
-      Script: {instanceID: 42066}
+      Script: {instanceID: 36310}
     - Class: 114
-      Script: {instanceID: 45698}
+      Script: {instanceID: 45550}
     - Class: 114
-      Script: {instanceID: 36870}
+      Script: {instanceID: 36732}
     - Class: 114
-      Script: {instanceID: 46000}
+      Script: {instanceID: 41240}
     - Class: 114
-      Script: {instanceID: 43834}
+      Script: {instanceID: 35602}
     - Class: 114
-      Script: {instanceID: 45500}
+      Script: {instanceID: 35308}
     - Class: 114
-      Script: {instanceID: 39466}
+      Script: {instanceID: 37954}
     - Class: 114
-      Script: {instanceID: 36308}
+      Script: {instanceID: 46294}
     - Class: 114
-      Script: {instanceID: 45548}
+      Script: {instanceID: 44834}
     - Class: 114
-      Script: {instanceID: 36730}
+      Script: {instanceID: 40630}
     - Class: 114
-      Script: {instanceID: 41238}
+      Script: {instanceID: 44734}
     - Class: 114
-      Script: {instanceID: 35600}
+      Script: {instanceID: 46812}
     - Class: 114
-      Script: {instanceID: 35306}
-    - Class: 114
-      Script: {instanceID: 37952}
-    - Class: 114
-      Script: {instanceID: 46292}
-    - Class: 114
-      Script: {instanceID: 44832}
-    - Class: 114
-      Script: {instanceID: 40628}
-    - Class: 114
-      Script: {instanceID: 44732}
-    - Class: 114
-      Script: {instanceID: 46810}
-    - Class: 114
-      Script: {instanceID: 38304}
+      Script: {instanceID: 38306}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2083,6 +2092,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 10cd1e95a1f95e73ac87187e20256c21
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SDIDManager
   platform: 9
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

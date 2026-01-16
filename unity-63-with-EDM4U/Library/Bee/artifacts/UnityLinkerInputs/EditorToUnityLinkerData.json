@@ -103,10 +103,24 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SDIDManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "ShaderNameRegistry",
             "fullManagedTypeName": "",
             "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "SingularSDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Singular.SingularSDK",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -845,6 +859,13 @@
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Unity.2D.Animation.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.U2D.Animation.BufferManager",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Unity.2D.Animation.Runtime.dll",
