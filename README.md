@@ -30,9 +30,8 @@ This project is a **Unity 6.3** sample app that demonstrates how to integrate th
 Key items in this repo:
 
 - `unity-63-with-EDM4U/` – Unity project folder.
-- `Builds/` – iOS export folder (ignored by Git; generated on each build).
-- `Assets/` – Unity scenes, scripts, and settings.
-- `Packages/` – includes EDM4U and the Singular SDK via UPM.
+- `unity-63-with-EDM4U/Assets/` – Unity scenes, scripts, and settings.
+- `unity-63-with-EDM4U/Packages/` – includes EDM4U and the Singular SDK via UPM.
 
 Unity creates the iOS Xcode project directly under `Builds/` (for example, `Builds/Unity-iPhone.xcodeproj`), and EDM4U generates a `Podfile` in the same folder.
 
